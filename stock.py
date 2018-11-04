@@ -7,11 +7,8 @@ class Player:
         self.balance = balance
         self.stocks = {}
 
-    def __str__(self):
-        return self.name
-
     def __repr__(self):
-        return self.name
+        return "Player: " + self.name
 
     def get_balance(self):
         return self.balance
